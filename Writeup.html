@@ -125,7 +125,7 @@ trainCleaned$classe &lt;- classe
 testRemove &lt;- grepl(&quot;^X|timestamp|window&quot;, names(testRaw))
 testRaw &lt;- testRaw[, !testRemove]
 testCleaned &lt;- testRaw[, sapply(testRaw, is.numeric)]</code></pre>
-<p>Now, the cleaned training data set contains 19622 observations and 53 variables, while the testing data set contains 20 observations and 53 variables. The “classe” variable is still in the cleaned training set.</p>
+<p>Now, the cleaned training data set contains 19622 observations and 53 variables, while the testing data set contains 20 observations and 53 variables. The <code>classe</code> variable is still in the cleaned training set.</p>
 </div>
 <div id="slice-the-data" class="section level2">
 <h2>Slice the data</h2>

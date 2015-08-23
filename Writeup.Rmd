@@ -80,7 +80,7 @@ testRaw <- testRaw[, !testRemove]
 testCleaned <- testRaw[, sapply(testRaw, is.numeric)]
 ```
 
-Now, the cleaned training data set contains 19622 observations and 53 variables, while the testing data set contains 20 observations and 53 variables. The "classe" variable is still in the cleaned training set.
+Now, the cleaned training data set contains 19622 observations and 53 variables, while the testing data set contains 20 observations and 53 variables. The `classe` variable is still in the cleaned training set.
 
 ## Slice the data
 
